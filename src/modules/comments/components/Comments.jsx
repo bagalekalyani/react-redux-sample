@@ -2,8 +2,6 @@
 
 import React, {Component} from "react";
 import {Button, Jumbotron} from "react-bootstrap";
-import {connect} from "react-redux";
-import {bindActionCreators} from "redux";
 
 class Comments extends Component {
 
@@ -21,11 +19,5 @@ class Comments extends Component {
 
 }
 
-const mapStateToProps = (state) => ({
-});
-
-const mapDispatchToProps = (dispatch) => ({
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Comments);
+export default Comments;
 

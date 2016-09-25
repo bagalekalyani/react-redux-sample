@@ -1,8 +1,6 @@
 'use strict';
 
 import React, {Component} from "react";
-import {connect} from "react-redux";
-import {bindActionCreators} from "redux";
 import {Jumbotron} from "react-bootstrap";
 
 
@@ -25,11 +23,4 @@ class Home extends Component {
 
 }
 
-const mapStateToProps = (state) => ({
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  routeDispatch: dispatch,
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default Home;
